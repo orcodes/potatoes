@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+
+} 
+
+/* para que la "anchura total sea igual a Width", en vez de "anchura total = width + padding + border" */
+h1 {
+    position: fixed;
+    height: 75px;
+    margin: 20px;
+    top: auto;
+    width: 592.22px;
+    padding: 20px;
+    color: antiquewhite;
+    background: rgb(50,50,50,0.8);
+    
+}
+
+body {
+    width: 614px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    
+     /* the above is to center the website content on the display */
+}
+
+
+
+p {
+    margin: 20px;
+}
+
+img{
+    margin: 20px;
+}
+
+h3{
+    margin: 20px;
+}
+button {
+    margin: 20px;
+    
+    border: none;
+    padding: 10px;
+    color: antiquewhite;
+    background: antiquewhite;
+}
+
+.infotato{
+    background-color: beige;
+    height: 150px;
+    width: 594px;
+    border: 2px;
+    border-style: solid;
+    border-color: darkgoldenrod, 0.6;
+    
+    /* the border properties can be put together in one line
+    like "border: 2px solid darkgoldenrod" */
+    
+    overflow: scroll;
+    padding: 10px;
+    /* not sure how to put a border here*/
+}
+
+a:hover{
+    
+    text-decoration: underline;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: gray;
+}
+a:focus{
+    background: white;
+}
